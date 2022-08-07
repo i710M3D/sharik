@@ -1,5 +1,6 @@
  import { IoChevronDownOutline , IoChevronUpOutline } from "react-icons/io5";
  import { useState } from "react";
+ import { Link, useNavigate } from "react-router-dom";
 const NavDrop = ({text,Type}) => {
     const [Up, setUp] = useState(false);
     return (  
@@ -15,9 +16,16 @@ const NavDrop = ({text,Type}) => {
        <ul className="absolute flex flex-col py-1 justify-center items-center left-0 bottom-[-340%] 
 rounded-[7px] z-50 gap-2 bg-[#eee] w-full list-none font-semibold " >
        
+       <Link to="/signup3">
        <li className="w-full text-center h-[35px] py-1" >{Type[0]}</li>
+       </Link>
+       <Link to="/signup1">
        <li  className=" border-y border-white border-solid w-full text-center h-[35px] py-1" >{Type[1]}</li>
-       <li className="w-full text-center h-[35px]" >{Type[2]  }</li> </ul>}
+       </Link>
+       <Link to="/signup3">
+       <li className="w-full text-center h-[35px]" >{Type[2]  }</li> 
+       </Link>
+       </ul>}
 
        { Up &&  text!=="I want to share " && 
        <ul className="absolute flex flex-col py-2 justify-center items-center left-0 bottom-[-265%] 

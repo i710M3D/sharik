@@ -2,7 +2,7 @@ import upload from './img/bi_upload.svg'
 import icon from './img/icon.svg'
 import { useState } from 'react';
 import Anim from './animation';
-
+import { Link, useNavigate } from "react-router-dom";
     
 
 const Signup3 = () => {
@@ -54,7 +54,9 @@ const Signup3 = () => {
                 <input id='password' type={psw}  className="cursor-pointer border-box h-[56px] w-[100%] border-[1px] border-solid border-[#666666]/30 rounded-[12px] mt-[5px] block pl-[25px] font-pop text-[#666666] text-[14px] " />
             <p className="font-mon font-normal leading-[17px] flex items-center text-[#666666] mt-[4px] text-[14px] ">Use 8 or more characters with a mix of letters, numbers & symbols</p>
             </form>
+            <Link to="/">
             <button type='submit' className='mt-[75px] w-[98%] py-[18px] bg-[#0183FF] rounded-[18px] font-mon font-semibold text-[22px] leading-[27px] text-white '>Sign Up</button>
+            </Link>
 
 
             </div>

@@ -51,7 +51,7 @@ const Signup2 = () => {
                     <input id='password' type={psw}  className="cursor-pointer border-box h-[56px] w-[100%] border-[1px] border-solid border-[#666666]/30 rounded-[12px]  mt-[5px] block pl-[25px] font-pop text-[#666666] text-[14px] " />
                 <p className="font-mon font-normal leading-[17px] flex items-center text-[#666666]   text-[14px] mt-[4px] ">Use 8 or more characters with a mix of letters, numbers & symbols</p>
                 </form>
-                <Link to='/signup3' ><button type='submit' className='mt-[185px] w-[100%] py-[18px] bg-[#0183FF] rounded-[18px] font-mon font-semibold text-[22px] leading-[27px] text-white smn:mt-[57px] mdn:mt-[185px] lg:mt-[185px]'>Next</button></Link>
+                <Link to='/' ><button type='submit' className='mt-[185px] w-[100%] py-[18px] bg-[#0183FF] rounded-[18px] font-mon font-semibold text-[22px] leading-[27px] text-white smn:mt-[57px] mdn:mt-[185px] lg:mt-[185px]'>Next</button></Link>
 
 
                 </div>
