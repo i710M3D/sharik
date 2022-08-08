@@ -54,7 +54,7 @@ const Singin = () => {
                     <hr className='mt-[35px] w-[85%] h-[1px] bg-[#D9D9D9] m-auto smn:hidden mdn:block ' />
                 <Link to='/signup0' >
                 <div className='border-center w-[100%] h-[80.18px] mt-[37px] border-[0.8px] border-solid border-[#666666]/30 rounded-[19px] flex justify-center items-center '>
-                   <h2 className='font-mon font-normal text-[16px] leading-[20px] text-[#333333]  '>Don't have an acount?
+                   <h2 className='font-mon font-normal text-[16px] leading-[20px] text-[#333333]  '>Don't have an account?
                     <span className=' font-medium'>
                      Contact Us. 
                     </span> 

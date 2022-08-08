@@ -29,7 +29,7 @@ rounded-[7px] z-50 gap-2 bg-[#eee] w-full list-none font-semibold " >
 
        { Up &&  text!=="I want to share " && 
        <ul className="absolute flex flex-col py-2 justify-center items-center left-0 bottom-[-265%] 
-rounded-[7px] z-50 gap-2 bg-[#eee] w-full list-none font-semibold " >
+       rounded-[7px] z-50 gap-2 bg-[#eee] w-full list-none font-semibold " >
        
        <li className="w-full text-center h-[35px] py-1" >{Type[0]}</li>
        <li  className=" border-t border-white border-solid w-full text-center h-[40px] py-1" >{Type[1]}</li>

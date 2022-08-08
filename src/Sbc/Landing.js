@@ -14,7 +14,7 @@ const Landing = () => {
    
        <div>
         <Navbar/>
-        <div id="Landing" className=" relative px-8 h-[100vh] my-10 ">
+        <div id="Landing" className=" relative px-8 h-[800px] my-10 ">
           
          <div className="w-[125px] h-[125px] grid items-center justify-center gap-[1px] bg-[#0083fda1] 
           absolute bottom-[6%] right-[10%] py-6 text-white rounded-[9999999px] justify-items-center font-semibold ">

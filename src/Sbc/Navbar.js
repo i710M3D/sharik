@@ -33,20 +33,20 @@ const Navbar = () => {
            <Link to="/signin">
             <button  className="font-[600] text-[16px] cursor-pointer " >Login</button>
             </Link> 
-            <Link to="signup0">
+            <Link to="/signup0">
             <button className="text-white p-[9px] bg-[#0083fd] font-[600] text-[15px] px-8 rounded-[8px]
           hover:bg-[#0083fdc1]">Sign Up</button>
           </Link>
           </div>
         </div>}
         {Nav && <div className="grid px-8 h-[100vh] w-full p-3 justify-center justify-items-center items-center
-   fixed top-0 bg-white z-30  " >
+          fixed top-0 bg-white z-30  " >
           <BsXLg className="absolute top-[5%] text-xl right-[5%] cursor-pointer " onClick={() => { setNav(prev => prev = false) }}  ></BsXLg>
           <h1 className="font-bold text-5xl uppercase cursor-pointer " >Sharik.</h1>
 
           <div >
-            <NavDrop text="I want to participate "></NavDrop>
-            <NavDrop text="I want to share "></NavDrop>
+            <NavDrop text="I want to participate " Type={["Activities", "Get into Professional life", ""]}></NavDrop>
+            <NavDrop text="I want to share " Type={["University", "Club", "Companies"]}></NavDrop>
           </div>
           <h1 className="font-bold text-2xl cursor-pointer " >About</h1>
 
@@ -55,12 +55,14 @@ const Navbar = () => {
               <GrLanguage className="font-bold text-lg "></GrLanguage>
               <p className="font-[600] text-lg" >En</p>
             </div>
-
+            <Link to="/signin" >
             <button type="button" className="font-[600] text-xl cursor-pointer block w-full mt-4  " >Login</button>
+            </Link>
 
-
+            <Link to="/signup0">
             <button className="text-white my-2 p-[9px] bg-[#0083fd] font-[600] text-[15px] px-12 rounded-[8px]
-    hover:bg-[#0083fdc1]">Sign Up</button>
+        hover:bg-[#0083fdc1]">Sign Up</button>
+          </Link>
 
           </div>
         </div>}

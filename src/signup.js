@@ -94,7 +94,7 @@ const Signup0 = () => {
                 
                     <div className='smn:mx-auto mdn:mx-0' >
                     <Link to='/signin' >
-                        <span className="  cursor-pointer font-mon font-normal text-[16px] leading-[20px] text-[#333333]  ">Already have an acount? <span className='underline font-medium'>Log in </span></span>
+                        <span className="  cursor-pointer font-mon font-normal text-[16px] leading-[20px] text-[#333333]  ">Already have an account? <span className='underline font-medium'>Log in </span></span>
                     </Link>
                     </div>
                 

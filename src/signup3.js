@@ -24,7 +24,7 @@ const Signup3 = () => {
             <h2 className="mt-[14px] font-jost font-semibold text-[32px]  leading-[43px] smn:mx-auto smn:mt-[137px] smn:text-[36px] mdn:mx-0 mdn:mt-[14px] mdn:text-[32px]  ">SHARIK.</h2>
             <div className="mdn:mt-[75px] smn:mt-[35px]  grid gap-[2px] ">
                 <h2 className="font-mon font-semibold text-[32px] text-[#1F1F1F]  leading-[39px] m-0">Sign up</h2>
-                <p className="font-mon text-[#666666] opacity-80 text-[16px] font-normal  leading-[20px] ">Sign up for free to access to our platform</p>
+                <p className="font-mon text-[#666666] opacity-80 text-[16px] font-normal  leading-[20px] ">Sign up for free to access our platform</p>
             </div>
            
             <div className=" mdn:mt-[53px] smn:mt-[19px] ">
