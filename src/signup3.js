@@ -21,7 +21,7 @@ const Signup3 = () => {
     return (  
         <div className='flex  flex-wrap flex-row justify-between '>
         <div className="ml-[6%]  flex flex-wrap  max-h-fit  max-w-[473px] mr-[6%] flex-col ">
-            <h2 className="mt-[14px] font-jost font-semibold text-[32px]  leading-[43px] smn:mx-auto smn:mt-[137px] smn:text-[36px] mdn:mx-0 mdn:mt-[14px] mdn:text-[32px] lg:mx-0 ">SHARIK.</h2>
+            <h2 className="mt-[14px] font-jost font-semibold text-[32px]  leading-[43px] smn:mx-auto smn:mt-[137px] smn:text-[36px] mdn:mx-0 mdn:mt-[14px] mdn:text-[32px]  ">SHARIK.</h2>
             <div className="mdn:mt-[75px] smn:mt-[35px]  grid gap-[2px] ">
                 <h2 className="font-mon font-semibold text-[32px] text-[#1F1F1F]  leading-[39px] m-0">Sign up</h2>
                 <p className="font-mon text-[#666666] opacity-80 text-[16px] font-normal  leading-[20px] ">Sign up for free to access to our platform</p>

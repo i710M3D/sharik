@@ -23,7 +23,7 @@ const Singin = () => {
                 <h2 className="mt-[14px] font-jost font-semibold text-[32px]  leading-[43px] smn:mx-auto smn:mt-[271px] smn:text-[36px] mdn:mx-0 mdn:mt-[14px]  mdn:text-[32px] lgn:mx-0 ">SHARIK.</h2>
                 <div className="smn:mt-[20px] mdn:mt-[213px] grid gap-[2px]">
                     <h2 className="font-mon font-semibold text-[32px] text-[#1F1F1F]  leading-[39px] m-0">Sign in</h2>
-                    <p className="font-mon text-[#666666] opacity-80 text-[16px] font-normal  leading-[20px] ">Sign in for free to access to our platform</p>
+                    <p className="font-mon text-[#666666] opacity-80 text-[16px] font-normal  leading-[20px] ">Sign in for free to access our platform</p>
                 </div>
                 <div className="mdn:mt-[54px] smn: mt-[16px] ">
                     <form>
@@ -54,7 +54,7 @@ const Singin = () => {
                     <hr className='mt-[35px] w-[85%] h-[1px] bg-[#D9D9D9] m-auto smn:hidden mdn:block ' />
                 <Link to='/signup0' >
                 <div className='border-center w-[100%] h-[80.18px] mt-[37px] border-[0.8px] border-solid border-[#666666]/30 rounded-[19px] flex justify-center items-center '>
-                   <h2 className='font-mon font-normal text-[16px] leading-[20px] text-[#333333]  '>Don't have an ccount?
+                   <h2 className='font-mon font-normal text-[16px] leading-[20px] text-[#333333]  '>Don't have an acount?
                     <span className=' font-medium'>
                      Contact Us. 
                     </span> 

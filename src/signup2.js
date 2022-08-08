@@ -19,7 +19,7 @@ const Signup2 = () => {
     return (
         <div className='flex  flex-wrap  flex-row justify-between'>
              <div className="ml-[6%] flex flex-wrap max-w-[473px] max-h-fit flex-col mr-[6%] ">
-             <h2 className="mt-[14px] font-jost font-semibold text-[32px]  leading-[43px] smn:mx-auto smn:mt-[137px] smn:text-[36px] mdn:mx-0 mdn:mt-[14px] mdn:text-[32px] lg:mx-0">SHARIK.</h2>
+             <h2 className="mt-[14px] font-jost font-semibold text-[32px]  leading-[43px] smn:mx-auto smn:mt-[137px] smn:text-[36px] mdn:mx-0 mdn:mt-[14px] mdn:text-[32px] ">SHARIK.</h2>
                 <div className="mdn:mt-[75px] smn:mt-[35px]  grid gap-[2px]   ">
                     <h2 className="font-mon font-semibold text-[32px] text-[#1F1F1F]  leading-[39px] m-0">Sign up</h2>
                     <p className="font-mon text-[#666666] opacity-80 text-[16px] font-normal  leading-[20px] ">Sign up for free to access to our platform</p>
@@ -51,7 +51,7 @@ const Signup2 = () => {
                     <input id='password' type={psw}  className="cursor-pointer border-box h-[56px] w-[100%] border-[1px] border-solid border-[#666666]/30 rounded-[12px]  mt-[5px] block pl-[25px] font-pop text-[#666666] text-[14px] " />
                 <p className="font-mon font-normal leading-[17px] flex items-center text-[#666666]   text-[14px] mt-[4px] ">Use 8 or more characters with a mix of letters, numbers & symbols</p>
                 </form>
-                <Link to='/' ><button type='submit' className='mt-[185px] w-[100%] py-[18px] bg-[#0183FF] rounded-[18px] font-mon font-semibold text-[22px] leading-[27px] text-white smn:mt-[57px] mdn:mt-[185px] lg:mt-[185px]'>Next</button></Link>
+                <Link to='/' ><button type='submit' className='mt-[185px] w-[100%] py-[18px] bg-[#0183FF] rounded-[18px] font-mon font-semibold text-[22px] leading-[27px] text-white smn:mt-[57px] mdn:mt-[185px] '>Sign up</button></Link>
 
 
                 </div>
